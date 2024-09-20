@@ -14,8 +14,8 @@ removeFriend() - decreases the friend count by 1
 
 const facebookProfile = {
   "your name": "",
-  "the number of friends you have": 50,
-  "an array of messages you've posted": ["Hello", "I am a student", "I am from Japan"],
+  "the number of friends you have": 0,
+  "an array of messages you've posted": [],
 
   postMessage: function postMessage(masage) {
     facebookProfile["an array of messages you've posted"].push(masage);
@@ -33,6 +33,7 @@ const facebookProfile = {
   },
 };
 
+//test
 facebookProfile["your name"] = "AYAKA ITO";
 facebookProfile["the number of friends you have"] = 50;
 facebookProfile["an array of messages you've posted"] = [
